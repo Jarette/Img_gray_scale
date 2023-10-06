@@ -11,7 +11,7 @@ import (
 // Grayscale gray scales an image
 func Grayscale() {
 	// Open the original image
-	reader, err := os.Open("image.png")
+	reader, err := os.Open("downloaded_image.jpg")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
